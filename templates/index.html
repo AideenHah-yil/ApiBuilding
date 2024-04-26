@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'styles.css'  %}" />
+  <title>Document</title>
+</head>
+<body>
+  <!-- using css style the content and images to look better -->
+  <!-- use yuor own colors create cards for the random facts and students -->
+  <!-- pro-tip .Use multiple pages for the different content  -->
+  <!-- nav bar, links to other pages, and a footer.
+  implement refresh/reload button in every page -->
+  <h1>Random fact</h1>
+  {{fact}}
+  
+  <h1>Random student</h1>
+  {{name}}
+
+  <h1>Random image</h1>
+  <img src="{{dog}}" alt="" >
+</body>
+</html>

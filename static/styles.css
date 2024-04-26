@@ -1,0 +1,9 @@
+h1 {
+  color: red;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 9999;
+}
